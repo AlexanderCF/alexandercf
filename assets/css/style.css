@@ -4,6 +4,7 @@
   --header-hover-color: #8b8c89;
   --header-avatar-size: 50px;
   --main-bg-skill-color: #6096ba;
+  --main-text-color: #000000;
 }
 
 * {
@@ -188,7 +189,7 @@ body {
 
 .hero__description {
   font-size: 1.3rem;
-  color: #8b8c89;
+  color: var(--main-text-color);
   line-height: 1.6;
   max-width: 500px;
 }
@@ -237,7 +238,7 @@ body {
 .about__title {
   font-size: 2rem;
   font-weight: bold;
-  color: black;
+  color: var(--main-text-color);
 }
 
 /* Columna izquierda: descripción */
@@ -249,13 +250,13 @@ body {
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 10px;
-  color: black;
+  color: var(--main-text-color);
 }
 
 .about__text {
   font-size: 1.05rem;
   line-height: 1.7;
-  color: #8b8c89;
+  color: var(--main-text-color);
   text-align: left;
 }
 
@@ -276,7 +277,7 @@ body {
 
 .about__skill {
   background-color: #6096ba;
-  color: black;
+  color: var(--main-text-color);
   padding: 6px 12px;
   border-radius: 6px;
   font-size: 0.9rem;
@@ -349,17 +350,17 @@ body {
 .projects__title {
   font-size: 2rem;
   font-weight: bold;
-  color: black;
+  color: var(--main-text-color);
 }
 
 .projects__description {
   font-size: 1.1rem;
-  color: #8b8c89;
+  color: var(--main-text-color);
   margin-top: 10px;
 }
 
 .projects__link {
-  color: #274c77;
+  color: #0000ff;
   text-decoration: underline;
   margin-left: 5px;
 }
@@ -376,7 +377,6 @@ body {
   border: 1px solid #d1d5db;
   padding: 20px;
   border-radius: 10px;
-  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -410,7 +410,7 @@ body {
 .projects__item-title {
   font-size: 1.2rem;
   font-weight: 600;
-  color: black;
+  color: var(--main-text-color);
   margin-top: 15px;
   text-align: center;
 }
@@ -418,7 +418,7 @@ body {
 /* Descripción */
 .projects__item-description {
   font-size: 0.95rem;
-  color: #8b8c89;
+  color: var(--main-text-color);
   margin: 10px 0 20px 0;
   text-align: center;
 }
@@ -426,7 +426,7 @@ body {
 /* Botón */
 .projects__button {
   background-color: #6096ba;
-  color: black;
+  color: var(--main-text-color);
   border: none;
   padding: 10px 20px;
   font-size: 0.9rem;
@@ -483,7 +483,7 @@ body {
 
 .footer__description {
   font-size: 1rem;
-  color: #ffffff;
+  color: var(--header-text-color);
   max-width: 350px;
 }
 
@@ -513,7 +513,7 @@ body {
   text-align: center;
   /* 👈 centrado */
   font-size: 0.9rem;
-  color: #ffffff;
+  color: var(--header-text-color);
 }
 
 /* ===== Responsive ===== */
