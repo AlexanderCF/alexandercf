@@ -1,0 +1,114 @@
+/* ======= SECCIÓN ABOUT ======= */
+
+.about__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  padding: 80px 20px;
+}
+
+/* Título principal */
+.about__header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+/* Columna izquierda: descripción */
+.about__description {
+  flex: 1 1 50%;
+}
+
+.about__subtitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.about__text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #8b8c89;
+  text-align: left;
+}
+
+/* Columna derecha: habilidades */
+.about__skills-section {
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.about__skill {
+  background-color: #6096ba;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Ilustración */
+.about__illustration {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about__illustration img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .about__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__description,
+  .about__skills-section {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .about__text {
+    text-align: left;
+  }
+
+  .about__skills {
+    justify-content: center;
+  }
+
+  .about__skills-section {
+    align-items: center;
+  }
+
+  .about__subtitle {
+    text-align: center;
+  }
+}

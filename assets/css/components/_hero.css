@@ -1,0 +1,79 @@
+/* ===== About Me ===== */
+
+.hero {
+  padding: 80px 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* ====== Hero Section ====== */
+
+.hero__container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite responsividad */
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+/* Imagen */
+.hero__image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+/* Contenido */
+.hero__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero__name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--header-bg-color);
+  margin-bottom: 20px;
+}
+
+.hero__description {
+  font-size: 1.3rem;
+  color: #8b8c89;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .hero__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero__content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__name {
+    font-size: 2.2rem;
+  }
+
+  .hero__description {
+    font-size: 1.1rem;
+  }
+}

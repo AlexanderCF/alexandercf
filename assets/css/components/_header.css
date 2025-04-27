@@ -1,0 +1,107 @@
+/* ===== Header principal ===== */
+.header {
+  background-color: var(--header-bg-color);
+  /*background-image: url('ajpcf_portafolio\assets\img\background\solid_2.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;*/
+  color: var(--header-text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  flex-wrap: wrap;
+}
+
+/* Perfil (imagen + nombre) */
+.header__profile {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__avatar {
+  width: var(--header-avatar-size);
+  height: var(--header-avatar-size);
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header__name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Navegación */
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__nav-item,
+.header__nav-button {
+  display: inline-block;
+  color: var(--header-text-color);
+  font-size: 1rem;
+  text-decoration: none;
+  background: none;
+  border: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.header__nav-item:hover,
+.header__nav-button:hover {
+  color: var(--header-hover-color);
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    /* 👈 Alinea todo en el centro */
+    padding: 15px 20px;
+  }
+
+  .header__profile {
+    margin-bottom: 10px;
+  }
+
+  .header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__nav-list {
+    flex-direction: row;
+    /* 👈 Se mantiene en fila horizontal */
+    flex-wrap: wrap;
+    /* 👈 Si es necesario, los links bajarán de manera ordenada */
+    justify-content: center;
+    gap: 15px;
+    /* 👈 Espacio entre los enlaces */
+  }
+
+  .header__nav-item,
+  .header__nav-button {
+    font-size: 1rem;
+    padding: 5px 10px;
+    width: auto;
+    text-align: center;
+  }
+}
