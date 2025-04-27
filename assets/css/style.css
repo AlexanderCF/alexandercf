@@ -1,11 +1,11 @@
-@import url("./base/_reset.css");
-@import url("./base/_variables.css");
-@import url("./base/_typography.css");
+@import url("../css/base/_reset.css");
+@import url("../css/base/_variables.css");
+@import url("../css/base/_typography.css");
 
-@import url("./components/_header.css");
-@import url("./components/_hero.css");
-@import url("./components/_about.css");
-@import url("./components/_projects.css");
-@import url("./components/_footer.css");
+@import url("../css/components/_header.css");
+@import url("../css/components/_hero.css");
+@import url("../css/components/_about.css");
+@import url("../css/components/_projects.css");
+@import url("../css/components/_footer.css");
 
 /* @import url("./pages/_home.css"); */
