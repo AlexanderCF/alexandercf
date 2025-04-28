@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
-    /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+
     <title>AlexanderCF | Data analyst | Frontend Web Developer</title>
     <meta
       name="description"
@@ -34,11 +36,11 @@
 
       <nav class="header__nav">
         <ul class="header__nav-list">
-          <li><a class="header__nav-item" href="./">Home</a></li>
+          <li><a class="header__nav-item" href=".\">Home</a></li>
           <li><a class="header__nav-item" href="#about">About</a></li>
           <li><a class="header__nav-item" href="#project">Project</a></li>
           <li><a class="header__nav-item" href="#contact">Contact</a></li>
-          <li>
+          <!-- <li>
             <button class="header__nav-button" aria-label="Dark_Mode">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +55,7 @@
                 />
               </svg>
             </button>
-          </li>
+          </li> -->
         </ul>
       </nav>
     </header>
@@ -67,15 +69,25 @@
               src="assets/img/illustration/Data report-pana_6096BA.webp"
               alt="Ilustración análisis de datos"
               class="hero__img"
+              data-aos="fade-right"
+              data-aos-duration="1000"
             />
           </div>
 
           <!-- Texto de presentación -->
           <div class="hero__content">
-            <h1 class="hero__name">
+            <h1
+              class="hero__name"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               Hey, I’m Alexander Jean Pierre Cubas Francia
             </h1>
-            <p class="hero__description">
+            <p
+              class="hero__description"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               The ability to tell stories with data lies in eliminating noise
               and focusing people’s attention on key insights.
             </p>
@@ -86,10 +98,20 @@
       <section class="about" id="about">
         <div class="about__container">
           <div class="about__header">
-            <h2 class="about__title">About me</h2>
+            <h2
+              class="about__title"
+              data-aos="fade-down"
+              data-aos-duration="900"
+            >
+              About me
+            </h2>
           </div>
 
-          <div class="about__description">
+          <div
+            class="about__description"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <h3 class="about__subtitle">Get to know me!</h3>
             <p class="about__text">
               I'm passionate about data, technology, and the opportunity to
@@ -107,8 +129,18 @@
           </div>
 
           <div class="about__skills-section">
-            <h3 class="about__subtitle">My Skills</h3>
-            <div class="about__skills">
+            <h3
+              class="about__subtitle"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              My Skills
+            </h3>
+            <div
+              class="about__skills"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <div class="about__skill">Python</div>
               <div class="about__skill">SQL</div>
               <div class="about__skill">SSIS</div>
@@ -125,7 +157,11 @@
               <div class="about__skill">Linux</div>
               <div class="about__skill">R</div>
             </div>
-            <div class="about__illustration">
+            <div
+              class="about__illustration"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+            >
               <!-- <img src="assets/img/illustration/Profile data-bro_6096BA.svg" alt="Profile illustration" /> -->
               <img
                 src="assets/img/illustration/Soft skills-bro_6096BA.webp"
@@ -138,7 +174,11 @@
       <section class="projects" id="project">
         <div class="projects__container">
           <!-- Introducción -->
-          <div class="projects__intro">
+          <div
+            class="projects__intro"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <h2 class="projects__title">My Work</h2>
             <p class="projects__description">
               Here are a few past design projects I've worked on. Want to see
@@ -148,7 +188,11 @@
           </div>
 
           <!-- Lista de proyectos -->
-          <div class="projects__list">
+          <div
+            class="projects__list"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div class="projects__item">
               <img
                 src="assets/img/myWork/1.webp"
@@ -266,5 +310,12 @@
         <small>&copy; 2025 AlexanderCF. All rights reserved.</small>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script>
+      AOS.init({
+        once: false,
+      });
+    </script>
   </body>
 </html>
