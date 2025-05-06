@@ -13,5 +13,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <h1 align="center">Hi 👋, I'm Alexander Jean Pierre Cubas Francia</h1>
-<h3 align="center">The ability to tell stories with data lies in eliminating noise and focusing people’s attention on key insights.</h3>
+<h3 align="center">I'm passionate about data, technology, and the opportunity to create digital experiences that truly make an impact. Throughout my career, I've developed skills that blend data analysis, frontend development, and UX design, allowing me to build intuitive, functional, and results-driven solutions. I enjoy uncovering valuable insights from data, automating processes, and turning business needs into innovative products that support decision-making. I'm always looking to go one step further exploring new technologies and ensuring that every project I contribute to delivers real value and leaves a positive mark on the organizations I work with.</h3>
 
