@@ -37,7 +37,7 @@
 <!-- Lenguajes y herramientas -->
 <h3 align="left">🛠 Languages and Tools</h3>
 
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" style="margin-right: 10px;" loading="lazy" alt="Python" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" style="margin-right: 10px;" loading="lazy" alt="Anaconda" />
   <img src="https://cdn.simpleicons.org/jupyter/F37626" height="40" style="margin-right: 10px;" loading="lazy" alt="Jupyter" />
