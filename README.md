@@ -7,14 +7,14 @@
 
 <!-- Enlaces sociales -->
 <div align="center">
+  <a href="https://alexandercf.dev" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/static/v1?message=Visit%20My%20Website&logo=google-chrome&label=&color=0A66C2&logoColor=white&style=for-the-badge" height="25" alt="Visit Website" loading="lazy" />
+  </a>
   <a href="https://www.linkedin.com/in/alexandercf/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="LinkedIn" loading="lazy" />
   </a>
   <a href="https://www.youtube.com/@alexandercf25" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&style=for-the-badge" height="25" alt="YouTube" loading="lazy" />
-  </a>
-  <a href="https://alexandercf.dev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/static/v1?message=Visit%20My%20Website&logo=google-chrome&label=&color=0A66C2&logoColor=white&style=for-the-badge" height="25" alt="Visit Website" loading="lazy" />
   </a>
 </div>
 
