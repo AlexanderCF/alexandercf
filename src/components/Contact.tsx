@@ -37,7 +37,7 @@ export default function Contact() {
           </p>
 
           <div className="contact-actions">
-            <a className="button button--primary contact-actions__main" href="mailto:alexandercf25@gmail.com">
+            <a className="button button--primary contact-actions__main" href="mailto:alexanderfranciac@gmail.com">
               <Calendar size={20} />
               Solicitar una reunión
             </a>
