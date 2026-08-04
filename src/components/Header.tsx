@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <a className="brand" href="#home" aria-label="Ir al inicio">
-        <img src="/img/profile/foto_perfil.webp" alt="AlexanderCF" className="brand__avatar" />
+        <img src="img/profile/foto_perfil.webp" alt="AlexanderCF" className="brand__avatar" />
         <span className="brand__text">AlexanderCF</span>
       </a>
 

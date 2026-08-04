@@ -45,7 +45,7 @@ export default function Hero() {
           </dl>
         </div>
         <div className="hero__visual">
-          <img src="/img/illustration/Data report-pana_6096BA.webp" alt="Ilustración de análisis de datos" />
+          <img src="img/illustration/Data report-pana_6096BA.webp" alt="Ilustración de análisis de datos" />
         </div>
       </div>
     </section>

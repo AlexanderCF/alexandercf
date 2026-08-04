@@ -35,7 +35,7 @@ export default function About() {
         </div>
         <div className="capability-panel" aria-label="Capacidades principales">
           <div className="capability-panel__top">
-            <img src="/img/illustration/Soft skills-bro_6096BA.webp" alt="Ilustración de habilidades" />
+            <img src="img/illustration/Soft skills-bro_6096BA.webp" alt="Ilustración de habilidades" />
           </div>
           <div className="skills-list">
             {skills.map((skill) => (
