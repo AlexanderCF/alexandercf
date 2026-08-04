@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Portafolio profesional de AlexanderCF enfocado en data analytics y frontend.",
   "type": "module",
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@10.34.5",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
