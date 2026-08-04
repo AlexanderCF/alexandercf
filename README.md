@@ -1,7 +1,18 @@
 <!-- Foto de perfil -->
 <div align="center">
-  <img height="150" src="assets/img/profile/foto_perfil_2.JPG" loading="lazy" alt="Profile Photo" />
+  <img height="150" src="assets/img/profile/foto_perfil.webp" loading="lazy" alt="Profile Photo" />
 </div>
+
+## Desarrollo local
+
+Este portafolio usa React, TypeScript y Vite. Los proyectos se administran desde `src/data/projects.json`.
+
+```bash
+pnpm install
+pnpm dev
+pnpm test
+pnpm build
+```
 
 ###
 

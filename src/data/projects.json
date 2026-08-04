@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Monitoreo del Service Desk",
+    "category": "Business Intelligence",
+    "description": "Dashboard ejecutivo para dar seguimiento a la operación del service desk, tiempos de atención y carga de tickets.",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiZTFkMjYzMzYtMzBmNi00OGE4LTkxZjgtNGU1OTgwMzQxYmY1IiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9",
+    "tags": ["power bi", "python", "sql", "dax", "seguimiento operativo"]
+  },
+  {
+    "id": 2,
+    "title": "Registro de matrícula SIAGIE",
+    "category": "Data Analytics",
+    "description": "Seguimiento del avance de matrícula del año escolar 2026 - 2025.",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiZWVkZmE1OGItMTFjMS00NTk2LWFjMWQtNTNjM2JhODRmMDk4IiwidCI6IjE3OWJkZGE4LWQ5NjQtNDNmZi1hZDNiLTY3NDE4NmEyZmEyOCIsImMiOjR9",
+    "tags": ["power bi", "ssis", "python", "sql", "etl"]
+  },
+  {
+    "id": 3,
+    "title": "Registro de asistencia",
+    "category": "Data Analytics",
+    "description": "Seguimiento del registro de asistencia registrado en el año escolar 2026.",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiNTQ0NTYyYjgtZDQ4ZS00YWZhLTg5YzgtNjE0NmVjNGJlOThhIiwidCI6IjE3OWJkZGE4LWQ5NjQtNDNmZi1hZDNiLTY3NDE4NmEyZmEyOCIsImMiOjR9",
+    "tags": ["power bi", "ssis", "python", "sql", "etl"]
+  },
+  {
+    "id": 4,
+    "title": "Registro de evaluación",
+    "category": "Data Analytics",
+    "description": "Reporte de control para observar la generación de informes de evaluación y facilitar decisiones de seguimiento.",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiZjc1ZmE0MDUtMDllMy00NjRjLThlY2ItNmE5ZDEwMzIxNDVmIiwidCI6IjE3OWJkZGE4LWQ5NjQtNDNmZi1hZDNiLTY3NDE4NmEyZmEyOCIsImMiOjR9",
+    "tags": ["power bi", "ssis", "python", "sql", "dax", "etl"]
+  },
+  {
+    "id": 5,
+    "title": "Nivel de logro registrado",
+    "category": "Data Analytics",
+    "description": "Seguimiento del nivel de logro registrado en SIAGIE para el año escolar 2026.",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiOTcyNGNkZjQtZjcyZS00ZTk0LTk4MWUtNTY3NzkxNTU5YjA4IiwidCI6IjE3OWJkZGE4LWQ5NjQtNDNmZi1hZDNiLTY3NDE4NmEyZmEyOCIsImMiOjR9",
+    "tags": ["power bi", "ssis", "python", "sql", "etl"]
+  },
+  {
+    "id": 6,
+    "title": "Actas de evaluación",
+    "category": "Data Analytics",
+    "description": "Seguimiento de generación y aprobación de las actas de evaluación de las fases del año escolar 2025.",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiOWIzMTU0NWItMTRiNS00ZmE2LTk2ZjgtNjk1ZTkwMzljMjI3IiwidCI6IjE3OWJkZGE4LWQ5NjQtNDNmZi1hZDNiLTY3NDE4NmEyZmEyOCIsImMiOjR9",
+    "tags": ["power bi", "ssis", "python", "sql", "etl"]
+  },
+  {
+    "id": 7,
+    "title": "Distribución de Tablets",
+    "category": "Data Analytics",
+    "description": "Visualización del avance de servicios educativos vinculados a la distribución de tablets.",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiZTZmZmU2NWEtYjM0ZC00ZGQ2LTliMDItMmVmMGEzNWViODYyIiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9",
+    "tags": ["power bi", "excel", "dax", "distribución"]
+  },
+  {
+    "id": 8,
+    "title": "Portal de Seguimiento SIAGIE",
+    "category": "Frontend",
+    "description": "Portal web para centralizar reportes Power BI con catálogo administrable desde JSON, filtros y componentes reutilizables.",
+    "url": "https://portalseguimientosiagie.vercel.app/",
+    "tags": ["react", "typescript", "vite", "json", "frontend"]
+  }
+]
